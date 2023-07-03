@@ -1,0 +1,59 @@
+body {
+    background-image: url(images/body\ bacground.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: rgb(43, 43, 43);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10x 10px;
+}
+.fs-50 {
+    font-size: 50px;
+}
+ul {
+    background-image: url(images/body\ bacground.png);
+    list-style-type: none;
+    overflow: hidden;
+    background-color:#3dd47c ;
+    padding: 0%;
+    margin: 0;
+    text-align: center;
+}
+li {
+    display: inline-block;
+}
+li a {
+    display: block;
+    color: rgb(78, 78, 78);
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(182, 166, 145);
+}
+ul li ul {
+    background-color: #cfffe5;
+    display: none;
+    position: absolute;
+    width: 100px;
+}
+ul li:hover ul {
+    display: block;
+}
+li ul li {
+    display: block;
+}
+
+
+.t-shirt {
+    background-color: white; 
+    list-style-type: none; 
+    text-align: center;
+}
